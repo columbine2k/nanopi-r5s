@@ -13,5 +13,9 @@ git clone --depth=1 https://github.com/zsh-users/zsh-completions ./.oh-my-zsh/cu
 
 # Get .zshrc dotfile
 cp $GITHUB_WORKSPACE/scripts/.zshrc .
+# Get .vimrc dotfile
+cp $GITHUB_WORKSPACE/scripts/.vimrc .
+# Get zsh Passion theme
+cp $GITHUB_WORKSPACE/scripts/passion.zsh-theme ./.oh-my-zsh/themes
 
 popd
